@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: days-app-container
-        image: vagdevik/my-first-app-image:1.1
+        image: tosifsheraz:latest
         ports:
         - containerPort: 80
   selector:
